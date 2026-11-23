@@ -1,0 +1,25 @@
+class TokenType:
+
+    NUMBER = "NUMBER" # numeric values
+    IDENTIFIER = "IDENTIFIER" # variable names
+    STRING="STRING" #string class
+
+# arithmetic operators
+    PLUS = "PLUS"
+    MINUS = "MINUS"
+    MULTIPLY = "MULTIPLY"
+    DIVIDE = "DIVIDE"
+    ASSIGN = "ASSIGN"
+    POWER = "POWER"
+
+# comparison operators
+    LESS = "LESS"
+    GREATER = "GREATER"
+
+#parantheses
+    LPAREN = "LPAREN"
+    RPAREN = "RPAREN"
+
+#keywords
+    PRINT = "PRINT"
+    EOF = "EOF" # end of file
